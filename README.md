@@ -25,3 +25,6 @@ to get all the data stored in an object that we
 created.
 7. Lastely the client updates the UI to show the needed info.
 
+### Finished Results
+
+![weatherJournal](https://user-images.githubusercontent.com/100053538/158301960-e6e7b5ff-00cb-421a-9574-887239ec5aa3.jpg)

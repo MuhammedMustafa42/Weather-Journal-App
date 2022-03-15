@@ -1,0 +1,252 @@
+body {
+  background-color: rgb(40, 40, 40);
+  background-image: url(images/greysky.jpg);
+  background-size: cover;
+}
+
+#logo img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  margin-bottom: 0;
+  margin-right: 0.5rem;
+  margin-left: -0.5rem;
+}
+
+#title {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2rem;
+  border-bottom: solid 1px rgba(250, 235, 215, 0.4);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0.2rem;
+  color: antiquewhite;
+  font-family: "teko", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.inputs {
+  background-image: url("images/bluesky.jpg");
+  background-size: cover;
+  width: 15rem;
+  margin: 1rem;
+  background-color: rgba(48, 48, 48, 0.8);
+  padding: 1rem 2rem;
+  border-radius: 8px 0 0 8px;
+  color: antiquewhite;
+  font-family: "teko", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 6rem;
+  border: solid 1px rgba(250, 235, 215, 0.4);
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+  height: 20rem;
+  margin-right: 0;
+}
+
+#zip {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0.2rem 1rem 1rem 0;
+  background-color: rgba(48, 48, 48, 0.5);
+  color: aliceblue;
+  border-radius: 25px;
+  font-family: "teko", sans-serif;
+  font-size: 1.5rem;
+  border: solid 1px rgba(250, 235, 215, 0.4);
+  text-align: center;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#feelingsinput {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0.2rem 10 1rem auto;
+  background-color: rgba(48, 48, 48, 0.5);
+  color: aliceblue;
+  resize: none;
+  border-radius: 25px;
+  font-family: "teko", sans-serif;
+  font-size: 1.5rem;
+  border: solid 1px rgba(250, 235, 215, 0.4);
+  text-align: center;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#generate {
+  margin-top: 0.2rem;
+  color: aliceblue;
+  height: 2.5rem;
+  width: 2.5rem;
+  font-family: "teko", sans-serif;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  background-color: rgba(48, 48, 48, 0.6);
+  border: solid 1px rgba(250, 235, 215, 0.4);
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#generate:hover {
+  cursor: pointer;
+  background-color: antiquewhite;
+  color: rgb(48, 48, 48);
+  border: solid 3px rgb(48, 48, 48);
+  transition: 0.3s ease-in-out;
+}
+
+.outputs {
+  background: hsl(0, 0%, 100% / 0.1);
+  align-items: center;
+  width: 6rem;
+  height: 20rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(1rem);
+  border: solid 1px aliceblue;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 0 8px 8px 0;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  font-family: "teko", sans-serif;
+  font-size: 1.5rem;
+  margin-top: 6rem;
+  margin-left: 0;
+  color: black;
+  font-weight: 400;
+  opacity: 0;
+  transition: 1s ease-in-out;
+}
+
+#w {
+  color: aliceblue;
+}
+
+footer {
+  /* background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29)); */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+
+footer p {
+  text-align: left;
+  font-family: "teko", sans-serif;
+  color: antiquewhite;
+  width: 100%;
+  padding-left: 2em;
+  padding-bottom: 0.5em;
+  margin-top: 0.4em;
+  font-size: 1.2rem;
+}
+
+footer img {
+  width: 6rem;
+  text-align: right;
+  font-family: "teko", sans-serif;
+  color: aliceblue;
+  padding-right: 2em;
+  padding-bottom: 0.5em;
+  margin-top: 1em;
+}
+
+#udacity {
+  color: aliceblue;
+}
+
+#card {
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
+}
+
+label {
+  margin-left: 0.5rem;
+}
+
+#zipcontainer {
+  padding-top: 0.7em;
+}
+
+#one {
+  display: flex;
+  flex-direction: column;
+}
+
+#cityname {
+  margin-bottom: 0;
+}
+
+#day {
+  margin-top: -0.8rem;
+  margin-bottom: 0;
+  color: antiquewhite;
+  font-size: 1.4rem;
+}
+
+#date {
+  margin-top: -0.8rem;
+  font-size: 1.1rem;
+  color: aliceblue;
+}
+
+#two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  justify-content: space-around;
+}
+
+#weathericon img {
+  width: 4rem;
+  margin-bottom: 0;
+}
+
+#description {
+  margin-top: -0.5rem;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+
+#temp {
+  margin-top: -0.5rem;
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  .inputs {
+    height: 22rem;
+    font-size: 1.2rem;
+    width: 13rem;
+  }
+
+  .outputs {
+    height: 22rem;
+    width: 4rem;
+  }
+
+  #zip {
+    font-size: 1rem;
+  }
+
+  #feelingsinput {
+    font-size: 1rem;
+  }
+}

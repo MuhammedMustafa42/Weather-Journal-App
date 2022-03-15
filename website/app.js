@@ -40,7 +40,7 @@ searchButton.addEventListener("click", function performAction(event) {
         currentDate: newDate,
         icon: data.weather[0].icon,
         description: data.weather[0].description,
-        temperature: Math.floor(data.main.temp),
+        temperature: Math.round(data.main.temp),
         feeling: feelings,
       });
       updateUi();
